@@ -2,6 +2,7 @@ package com.java.data;
 
 public class Calculator {
 
+
     public float sum (float num1, float num2){
         return num1+num2;
     }
@@ -10,5 +11,14 @@ public class Calculator {
         return num1+num2;
     }
     
+
+    public float multiplication (float num1, float num2){
+        return num1*num2;
+    }
+
+    public float division (float num1, float num2){
+        return num1/num2;
+    }
+
 
 }
